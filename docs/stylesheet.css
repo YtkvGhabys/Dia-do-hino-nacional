@@ -21,7 +21,6 @@ body {
 }
 
 header {
-    width: 100%;
     background-color: var(--verde);
 }
 
@@ -73,7 +72,7 @@ img {
 .bannerimg {
     position: absolute;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100px;
     object-fit: cover;
     z-index: -1;
@@ -87,8 +86,10 @@ section {
     
 }
 
-.gridcard {
-    display:
+.grid-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
 .card {
@@ -98,8 +99,16 @@ section {
     border-radius: 10px;
 }
 
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 footer {
     color: rgb(87, 87, 87);
+    text-align: center;
+
 }
 
 :root {
