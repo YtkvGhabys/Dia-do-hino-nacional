@@ -7,73 +7,85 @@
 }
 
 body {
-    margin: 40px 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--azul);
 }
 
 header {
-    height: auto;
     width: 100%;
+    background-color: var(--verde);
 }
 
-main {
-    max-width: 1000px;
-    width: 100%;
-    min-height: 36px;
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 45px;
+    transform: translateY(-50%);
+    z-index: 99;
 }
 
-footer {
-
+.logo img {
+  height: 100px;
+  display: block;
 }
 
 .menu {
-    background-color: #004719;;
     display: flex;
-    justify-content: ;
     align-items: center;
+    justify-content: flex-end;
     gap: 20px;
+    position: relative;
+    padding-right: 32px; 
+    height: 60px;
 }
 
-.banner {
-    margin: auto;
+main {
+    margin: 0 15%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--amarelo);
+}
+
+img {
+
+}
+
+.title {
+    margin:0 ;
+    position: relative;
+    font-family: Oferta-do-Dia;
+    color: var(--branco);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.bannerimg {
+    position: absolute;
+    
+    margin:  auto -15%;
     width: 100%;
     height: 100px;
     object-fit: cover;
 }
 
-.title {
-    text-align: center;
-    font-size: 100px;
-    font-family: 'Oferta-do-Dia';
-    font-weight: 300;
-}
-
-.curiosidade-card {
-    background: #fff;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-left: 8px solid #009C3B;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.pag {
-    color: #FFDF00;
-}
-
-h1 {
-
-}
-
-p {
+.card {
     
 }
 
-a {
-
-    text-decoration: none; 
+footer {
+    color: rgb(87, 87, 87);
 }
+
+:root {
+    --verde: #004719;
+    --amarelo: #FFDF00;
+    --azul: #0F3275;
+    --branco: #F4F4F4;
+}
+
+
