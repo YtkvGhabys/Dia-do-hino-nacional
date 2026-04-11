@@ -1,12 +1,4 @@
 /* =========================
-   IMPORTAÇÃO DE FONTES
-========================= */
-@font-face {
-    font-family: 'Oferta-do-Dia';
-    src: url('fontes/Oferta-do-Dia.ttf') format('truetype');
-}
-
-/* =========================
    VARIÁVEIS
 ========================= */
 :root {
