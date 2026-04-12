@@ -181,6 +181,10 @@ a {
     color: var(--amarelo);
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
 /* =========================
    CARDS
 ========================= */
@@ -249,6 +253,12 @@ a {
     color: #3a3a3a;
     max-width: 680px;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    }
 
 /* =========================
    DESTAQUE
