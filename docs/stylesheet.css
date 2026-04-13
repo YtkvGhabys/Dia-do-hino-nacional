@@ -44,8 +44,9 @@ header {
         var(--verde)  100%
     );
     text-align: center;
-    padding: 55px 15% 65px;
+    padding: 55px 30px 60px;
     position: relative;
+    height: 300px
 }
 /* =========================
    TÍTULO
